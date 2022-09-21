@@ -1,7 +1,7 @@
 
 
   
-  function checkPal(str){
+  function checkPalindrome(str){
 	  
 	  let bag="";
 	  for(let i=str.length; i>=0; i--){
@@ -15,6 +15,6 @@
 	  
   }
   
-   checkPal("naman");
+   checkPalindrome("mam");
   
   
