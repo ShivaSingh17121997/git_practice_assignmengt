@@ -1,5 +1,5 @@
 
-function prime(num){
+function checkPrime(num){
 	let factors=0;
 	for(let i=0; i<=num;i++){
 		if(num%i==0){
@@ -8,14 +8,14 @@ function prime(num){
 if(factors==2){
 return true;
 }else {
-	else false;
+	return false;
 }
 	}
 	
 	
-	let ans=prime(7)
+	let ans=checkPrime(7)
 	if(ans==true){
-		console.log("is not prime")
+		console.log("Prime")
 	} else {
-		console.log("prime")
-	}
+		console.log("Not Prime")
+	};
